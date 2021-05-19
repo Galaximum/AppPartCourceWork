@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_green">#FF11754F</color>
+    <color name="second_green">#FF0C6A45</color>
+    <color name="favorite">#FF0097F6</color>
+    <color name="color_for_map">#DDFFFFFF</color>
+    <color name="accuracy_circle_color">#AA808080</color>
+    <color name="default_gray">#FFD3D3D3</color>
+    <color name="light_gray">#FFF6F6F6</color>
+    <color name="default_gray_filter">#DDD3D3D3</color>
+    <color name="color_filter_paper">#DDD35C00</color>
+    <color name="color_filter_glass">#DD759502</color>
+    <color name="color_filter_plastic">#DD7C0078</color>
+    <color name="color_filter_metal">#DD022F73</color>
+    <color name="color_type_marker_paper">#FFD35C00</color>
+    <color name="color_type_marker_glass">#FF759502</color>
+    <color name="color_type_marker_plastic">#FF7C0078</color>
+    <color name="color_type_marker_metal">#FF022F73</color>
+    <color name="color_text_second_priority">#FF979797</color>
+    <color name="color_swipe_lay_delete_favorite">#FFED3A3E</color>
+    <color name="color_swipe_lay_add_favorite">#FF00B3DF</color>
+
+</resources>

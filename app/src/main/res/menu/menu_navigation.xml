@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/showwedmenu">
+    <item
+        android:id="@+id/guideFragment"
+        android:icon="@drawable/guide_icon"
+        android:title="@string/title_guide" />
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/map_icon"
+        android:title="@string/title_map" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/title_profile" />
+    </group>
+    <group android:id="@+id/hiddenmenu">
+    </group>
+</menu>

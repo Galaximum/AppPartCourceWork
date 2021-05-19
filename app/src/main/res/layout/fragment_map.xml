@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/fragment_map_general_content" />
+
+
+    <View
+        android:id="@+id/anchorForButtons"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        app:layout_anchor="@+id/fragment_map_bottom_sheet_details_marker"
+        app:layout_anchorGravity="top" />
+
+
+    <include
+        layout="@layout/fragment_map_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/anchorForButtons"
+        app:layout_anchorGravity="top"
+        android:layout_gravity="center|top"/>
+
+
+    <include layout="@layout/fragment_map_bottom_sheet_details_marker" />
+
+    <!-- подключение нижних экранов -->
+    <include layout="@layout/fragment_map_bottom_sheet_search" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
